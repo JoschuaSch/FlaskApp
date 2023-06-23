@@ -16,6 +16,7 @@ h1 {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+    position: relative;
 }
 
 .post h2 {
@@ -24,4 +25,51 @@ h1 {
 
 .post p {
     margin: 10px 0;
+}
+
+.button-container {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.btn-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.btn-link:hover {
+    background-color: #0056b3;
+}
+
+.posts-container {
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.post-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.delete-link {
+    background-color: #dc3545;
+    margin-right: 10px;
+}
+
+.update-link {
+    background-color: #ffc107;
 }
