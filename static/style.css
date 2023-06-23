@@ -29,7 +29,7 @@ h1 {
 
 .button-container {
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
 }
 
 .btn-link {
@@ -49,7 +49,7 @@ h1 {
 }
 
 .posts-container {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .post-header {
@@ -70,6 +70,63 @@ h1 {
     margin-right: 10px;
 }
 
+.delete-link:hover {
+    background-color: #c82333;
+}
+
 .update-link {
     background-color: #ffc107;
+}
+
+.update-link:hover {
+    background-color: #e0a800;
+}
+
+.post-likes {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.post-likes span {
+    text-transform: uppercase;
+}
+.post {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.post-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: -40px;
+    left: 160px;
+}
+
+.post-buttons a {
+    margin-left: 10px;
+}
+
+.post-likes {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.post-likes span {
+    text-transform: uppercase;
+}
+.posts-container .post {
+    margin-bottom: 60px;
 }
